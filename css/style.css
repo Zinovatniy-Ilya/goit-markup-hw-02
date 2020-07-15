@@ -1,0 +1,68 @@
+:root {
+    --text-blue-color: blue ;
+    --text-contact-color: #757575;
+    --text-header-hover-color: #2196F3;
+    --text-header-color:#212121;
+    --background-butten-color: #2196F3;
+    --background-footer: #2F303A;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+.efect-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.web-title{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.blue {
+    color: var(--text-blue-color);
+}
+/*telephone, imail*/
+.contact{
+    color: var(--text-contact-color);
+}
+.contact:hover,
+.contact:focus   {
+    color: var(--text-header-hover-color);
+}
+.header-text:hover,
+.header-text:focus {
+    color: var(--text-header-hover-color);
+}
+
+a {
+    text-decoration: none;
+}
+.header-text {
+    font-family: Roboto;
+    color: var(--text-header-color);
+}
+ul {
+    list-style: none;
+}
+.main-button {
+    background-color: var(--background-butten-color);
+    color: #ffffff;
+}
+.bg-footer {
+    background-color: var(--background-footer);
+}
