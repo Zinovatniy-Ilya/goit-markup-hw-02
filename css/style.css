@@ -2,13 +2,16 @@
     --text-blue-color: blue ;
     --text-contact-color: #757575;
     --text-header-hover-color: #2196F3;
-    --text-header-color:#212121;
+    --text-subtitle-color:#212121;
     --background-butten-color: #2196F3;
     --background-footer: #2F303A;
+    --main-text:#757575;
 }
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
+    background-color: #ffffff;
 }
+
 .efect-title {
     font-weight: 900;
     font-size: 44px;
@@ -17,8 +20,10 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    background-color: black;
+    color: #ffffff;
 }
-.web-title{
+.web-logo{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -38,6 +43,7 @@ body {
 }
 /*telephone, imail*/
 .contact{
+    font-style: normal;
     color: var(--text-contact-color);
 }
 .contact:hover,
@@ -49,20 +55,76 @@ body {
     color: var(--text-header-hover-color);
 }
 
-a {
+.list a {
     text-decoration: none;
 }
 .header-text {
     font-family: Roboto;
-    color: var(--text-header-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--text-subtitle-color);
 }
 ul {
     list-style: none;
 }
-.main-button {
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
     background-color: var(--background-butten-color);
     color: #ffffff;
 }
+.subtitle-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: var(--text-subtitle-color);
+}
+.main-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text);
+}
 .bg-footer {
     background-color: var(--background-footer);
+}
+.contact-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.contact-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
