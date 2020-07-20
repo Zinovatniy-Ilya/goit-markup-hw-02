@@ -47,12 +47,15 @@ body {
     color: var(--text-contact-color);
 }
 .contact:hover,
-.contact:focus   {
+.contact:focus{
     color: var(--text-header-hover-color);
 }
 .header-text:hover,
 .header-text:focus {
     color: var(--text-header-hover-color);
+}
+.header-text.current {
+    color: #2196F3;
 }
 
 .list a {
